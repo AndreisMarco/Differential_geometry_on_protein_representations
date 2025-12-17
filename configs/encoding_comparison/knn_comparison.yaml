@@ -1,0 +1,6 @@
+k: [1,2,3,4,5,6,7,8,9,10]
+latent_paths:
+- logs/encoding_comparison/vae_onehot
+- logs/encoding_comparison/vae_esm_480d
+- logs/encoding_comparison/vae_esm_1280d
+out_path: logs/

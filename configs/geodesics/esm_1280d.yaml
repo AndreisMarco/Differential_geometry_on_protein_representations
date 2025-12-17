@@ -1,0 +1,27 @@
+seed: 42
+save_path: "logs/geodesics/vae_esm_1280d"
+data_path: "data/datasets/esm_representation_1280d.npz"
+
+data:
+  train_split: 0.8
+  normalize: True
+  avg_seq_len: True
+
+train:
+  num_epochs: 500
+  lr: 0.0001
+  weight_decay: 0.0001
+  batch_size: 128
+  warmup_epochs: 100
+  kl_start: 0.001
+  kl_end: 0.01
+
+model:
+  architecture: "vae_esm" # vae_onehot, vae_esm, vae_adj_var
+  encoder_dim: [512, 512, 256]
+  decoder_dim: [256, 512, 512]
+  latent_dim: 2
+  gamma_init: 0.1
+  eta: 10.0
+  a_factor: -6.9077
+  inducing_points: 500

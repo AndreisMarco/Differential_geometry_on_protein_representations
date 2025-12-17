@@ -1,0 +1,9 @@
+seed: 42
+model_path: logs/geodesics/esm_var_adj_1280d
+num_considered_latents: 100
+
+optimization:
+  num_points: 100  
+  num_steps: 500
+  lr: 0.005  
+  batch_size: 128
