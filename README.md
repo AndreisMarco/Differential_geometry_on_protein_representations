@@ -1,6 +1,6 @@
 This repository contains the code for the project course I did at DTU focused on exploring the geometry of latent protein representation.
 
-The project extract the proteins representation from the ESM2 model implementation in JAX which needs to be cloned from [here](https://github.com/irhum/esmjax).
+The project extract the proteins representation from the ESM2 model implementation in JAX which needs to be cloned from [here](https://github.com/irhum/esmjax). \
 Due to storage constraints, the logs from the model training and all the experiments are available in [this google drive folder](https://drive.google.com/drive/folders/1p0c1Lp1JHkTiGF2BSWjClv2R8v7rlQCM?usp=drive_link).
 
 
